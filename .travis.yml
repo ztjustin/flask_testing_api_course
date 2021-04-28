@@ -5,6 +5,7 @@ python:
 branches:
   only:
     - master
+    - develop
 install:
   - "pip install pytest"
   - "pip install -r requirements.txt"
